@@ -1,0 +1,79 @@
+
+
+header{
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding:  20px;
+}
+
+
+
+h1{
+    
+  font-size: xx-large;
+  margin:0;
+    
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    
+    gap: 80px;
+}
+ul.box{
+ display: flex;
+ background-color: white;
+ align-items: center;
+ gap: 50px;
+ list-style: none;
+ margin: 0;
+ padding: 0;
+ 
+    
+}
+
+
+h2{
+    margin: 0;
+    font-size: medium;
+}
+button{
+    background-color: blue;
+}
+section{
+    display: flex;
+    flex-direction: row;
+  
+    width: 1024;
+    height: 461;
+}
+ 
+.left-hero{
+    background-color: #08111D;
+    
+    flex-grow: 1;
+}
+
+
+.campus{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 6rem;
+    color: white;
+    
+
+    
+}
+.life{
+      display: flex;
+    font-size: 6rem;
+    justify-content: space-around;
+    align-items: center;
+    color: blue;
+  
+}
